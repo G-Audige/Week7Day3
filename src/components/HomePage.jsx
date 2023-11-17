@@ -5,7 +5,7 @@ import SearchBar from './SearchBar';
 
 function HomePage() {
   return (
-    <div>
+    <div className="homepage">
       <Header />
       <SearchBar />
       <EmployeeList />

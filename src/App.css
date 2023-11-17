@@ -1,6 +1,37 @@
+/* App */
 .App {
   border: 1px solid black;
   display: flex;
   justify-content: space-around
+}
+
+/* Components */
+.employeelist {
+  border: 1px solid purple;
+  margin: 2px;
+}
+.employeelistitem {
+  border: 1px solid red;
+  margin: 2px;
+}
+.employeepage {
+  border: 1px solid brown;
+  margin: 2px;
+  width: 40%
+}
+.header {
+  border: 1px solid blue;
+  margin: 2px;
+  text-align: center;
+}
+.homepage {
+  border: 1px solid orange;
+  margin: 2px;
+  width: 40%
+}
+.searchbar {
+  border: 1px solid green;
+  margin: 2px;
+  text-align: center;
 }
 

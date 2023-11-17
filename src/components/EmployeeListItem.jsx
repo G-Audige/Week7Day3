@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function EmployeeListItem() {
-  return (
-    <div>EmployeeListItem</div>
-  )
+  return <div className="employeelistitem">EmployeeListItem</div>;
 }
 
-export default EmployeeListItem
+export default EmployeeListItem;
