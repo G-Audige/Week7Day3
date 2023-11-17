@@ -5,8 +5,8 @@ import SearchBar from './SearchBar';
 
 function HomePage() {
   return (
-    <div className="homepage">
-      <Header />
+    <div className='homepage'>
+      <Header text='Employee Directory'/>
       <SearchBar />
       <EmployeeList />
     </div>

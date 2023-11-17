@@ -2,7 +2,9 @@
 .App {
   border: 1px solid black;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
+  margin: auto;
+  width: 95%;
 }
 
 /* Components */
@@ -11,13 +13,35 @@
   margin: 2px;
 }
 .employeelistitem {
+  align-items: center;
   border: 1px solid red;
+  /* border-radius: 5px; */
+  display: flex;
+  margin: 2px;
+}
+.employeelistitem:hover {
+  align-items: center;
+  background-color: pink;
+  border: 1px solid red;
+  border-radius: 5px;
+  display: flex;
+  margin: 2px;
+}
+.employeeInfo {
+  line-height: 5px;
+}
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.employeelistitem div {
   margin: 2px;
 }
 .employeepage {
   border: 1px solid brown;
   margin: 2px;
-  width: 40%
+  width: 45%;
 }
 .header {
   border: 1px solid blue;
@@ -27,11 +51,15 @@
 .homepage {
   border: 1px solid orange;
   margin: 2px;
-  width: 40%
+  width: 45%;
 }
 .searchbar {
   border: 1px solid green;
   margin: 2px;
   text-align: center;
 }
-
+.searchbar input {
+  border-width: 1px;
+  border-radius: 5px;
+  width: 90%
+}

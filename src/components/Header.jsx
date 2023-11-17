@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Header() {
+function Header(props) {
   return (
-    <div className="header">Header</div>
+    <div className='header'>{props.text}</div>
   )
 }
 
